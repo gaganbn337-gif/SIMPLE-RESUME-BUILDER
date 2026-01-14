@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  padding: 30px;
+}
+
+.form-panel {
+  width: 40%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form-panel input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-panel button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background: #3f51b5;
+  cursor: pointer;
+}
+
+.download {
+  background: #009688;
+}
+
+.preview-panel {
+  width: 60%;
+  background: #fff;
+  margin-left: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}

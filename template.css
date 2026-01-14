@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(120deg, #e0eafc, #cfdef3);
+  height: 100vh;
+}
+
+/* MAIN LAYOUT */
+.builder-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* FORM PANEL */
+.form-panel {
+  width: 38%;
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  box-shadow: 5px 0 25px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+}
+
+.form-panel h2 {
+  color: #3f51b5;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* INPUTS */
+.form-panel input,
+.form-panel textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
